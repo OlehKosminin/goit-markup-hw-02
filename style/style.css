@@ -1,9 +1,57 @@
-/* номер хедер #757575 */
+:root {
+    --primary-text-color: #212121;
+    --acent-text-color: #2196F3;
+}
 
-/* акцент синий  #2196F3; */
+body {
+    color: #757575;
+}
 
-/* основной текст #212121; */
+/* убирает все пункти  */
+ul {
+    list-style: none;
+}
 
-/* дополнительний текст #757575; */
+/* если нужно оставить неокотовие с пунктами
+ .list {
+    list-style: none;
+       } */
 
-/*footer текс номер почта #FFFFFF 60 % */
+
+/* heder */
+.logo {
+    color: var(--primary-text-color);
+}
+
+.logo-web {
+    color: var(--acent-text-color);
+}
+
+.site-naw {
+    color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--acent-text-color);
+}
+
+/* main */
+/* блок герой */
+.blok {
+    background-color: #2F303A;
+}
+
+.hero {
+    color: #FFFFFF;
+}
+
+/* особености */
+/* класи всем секциям */
+.section-title {
+    color: var(--primary-text-color);
+}
+
+.title {
+    color: var(--primary-text-color);
+}
