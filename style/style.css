@@ -7,6 +7,18 @@ body {
     color: #757575;
 }
 
+/* убирает подчеркивание */
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.link-style {
+    text-decoration: none;
+    outline: none;
+}
+
+
 /* убирает все пункти  */
 ul {
     list-style: none;
@@ -54,4 +66,13 @@ ul {
 
 .title {
     color: var(--primary-text-color);
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-text-color);
+}
+
+.link-style {
+    color: #FFFFFF 60;
 }
