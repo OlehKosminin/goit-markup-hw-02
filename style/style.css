@@ -11,7 +11,12 @@ body {
 a {
     text-decoration: none;
     outline: none;
+    color: #757575;
 }
+
+/* .span{
+    color:#757575;
+} */
 
 .link-style {
     text-decoration: none;
