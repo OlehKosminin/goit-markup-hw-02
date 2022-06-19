@@ -1,10 +1,12 @@
 :root {
     --primary-text-color: #212121;
     --acent-text-color: #2196F3;
+    --secondary-white-color: #FFFFFF;
 }
 
 body {
     color: #757575;
+    font-family: 'Roboto';
 }
 
 /* убирает подчеркивание */
@@ -12,6 +14,11 @@ a {
     text-decoration: none;
     outline: none;
     color: #757575;
+    /* color: #757575; */
+}
+
+.navigation {
+ background-color: turquoise;
 }
 
 /* .span{
@@ -37,7 +44,8 @@ ul {
 
 /* heder */
 .logo {
-    color: var(--primary-text-color);
+    color: var(--secondary-white-color);
+    font-family: 'Raleway';
 }
 
 .logo-web {
