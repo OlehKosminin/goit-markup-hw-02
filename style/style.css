@@ -2,11 +2,18 @@
     --primary-text-color: #212121;
     --acent-text-color: #2196F3;
     --secondary-white-color: #FFFFFF;
+    --primary-weight-font: 400;
+
 }
 
 body {
     color: #757575;
-    font-family: 'Roboto';
+    font-family: 'Roboto';        
+        --primary-weight-font: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        
 }
 
 /* убирает подчеркивание */
@@ -17,13 +24,19 @@ a {
     /* color: #757575; */
 }
 
-.navigation {
- background-color: turquoise;
+.studia{
+    color: var(--acent-text-color)
 }
 
 /* .span{
     color:#757575;
 } */
+
+.link{
+    font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
 
 .link-style {
     text-decoration: none;
@@ -46,6 +59,8 @@ ul {
 .logo {
     color: var(--secondary-white-color);
     font-family: 'Raleway';
+    color: #000000;
+
 }
 
 .logo-web {
@@ -65,12 +80,34 @@ ul {
 /* блок герой */
 .blok {
     background-color: #2F303A;
+    width: 1600px;
+        height: 600px;
+       
 }
 
 .hero {
+
+
     color: #FFFFFF;
+    text-align: center;
+
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.3;
+        letter-spacing: 0.06em;
+
+        padding-top: auto;
 }
 
+.button{
+    font-family: 'Roboto';
+    background-color: var(--acent-text-color);
+    color: var(--secondary-white-color);
+    border:none;
+
+    width: 200px;
+    height: 50px;
+}
 /* особености */
 /* класи всем секциям */
 .section-title {
