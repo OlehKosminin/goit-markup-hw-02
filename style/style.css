@@ -26,6 +26,10 @@ a {
     /* color: #757575; */
 }
 
+h2 {
+    margin-top: 0;
+}
+
 .logo{
     font-weight: 700;
         font-size: 26px;
@@ -135,7 +139,9 @@ ul {
         line-height: 1.2;
 }
 
-
+.section-style{
+    background: #E5E5E5;
+}
 /* особености */
 /* класи всем секциям */
 .section-title {
@@ -143,6 +149,10 @@ ul {
     font-weight: 700;
         font-size: 36px;
         line-height: 1.2;
+}
+
+.team{
+  background: #F5F4FA;;
 }
 
 .title {
@@ -174,3 +184,5 @@ address li {
     font-style: normal;
     color: #FFFFFF 60%;
 }
+
+/* portfolio */
