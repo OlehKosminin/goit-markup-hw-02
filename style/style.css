@@ -164,6 +164,7 @@ ul {
 .section-style{
     background: #E5E5E5;
 }
+
 /* особености */
 /* класи всем секциям */
 .section-title {
@@ -205,7 +206,7 @@ a[href="https://goo.gl/maps/727tqZzBJjCVUAbq7"] {
 
 .footer-link {
     font-style: normal;
-    color: #ffffff60;
+    color: #ffffff99;
 }
 
 /* portfolio */
